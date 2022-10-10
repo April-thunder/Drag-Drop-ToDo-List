@@ -1,0 +1,73 @@
+body {background: var(--dark-background);}
+
+.header {background: url("../img/night.jpg") center center/cover no-repeat;}
+
+.select {background: var(--dark-other-fields);}
+
+.input-task {
+  color: var(--input-font-dark);
+  background: var(--dark-other-fields);
+}
+
+.input-task::-webkit-input-placeholder {color: #767992;}
+
+.input-task::-moz-placeholder {color: #767992;}
+
+.input-task:-ms-input-placeholder {color: #767992;}
+
+.input-task::-ms-input-placeholder {color: #767992;}
+
+.input-task::placeholder {color: #767992;}
+
+.tasks {-webkit-box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);}
+
+.task {
+  background: var(--dark-other-fields);
+  border-bottom: 1px solid #393A4B;
+}
+
+.task-text {color: var(--input-font-dark);}
+
+.theme-link[data-theme="dark"] {display: none;}
+
+.theme-link[data-theme="light"] {display: block;}
+
+.fake, .fake-input {
+  background: var(--dark-other-fields);
+  border: 2px solid #393A4B;
+}
+
+.fake:hover, .fake-input:hover {background-image: -o-linear-gradient(var(--dark-other-fields), var(--dark-other-fields)), -o-linear-gradient(315deg, #55DDFF 0%, #C058F3 100%);background-image: linear-gradient(var(--dark-other-fields), var(--dark-other-fields)), linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);}
+
+.cross::before,
+.cross::after {background: var(--footer-dark-font);}
+
+.checkbox:checked ~ .task-text {color: #4D5067;}
+
+.task-footer {
+  background: var(--dark-other-fields);
+  -webkit-box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+}
+
+.task-count, 
+.filter-btn,
+.task-clear,
+.subtitle {color: var(--footer-dark-font);}
+
+.filter-btn:hover {color: #E3E4F1;}
+
+.filter-btn_active {color: #3A7CFD;}
+
+.over {background-color: #3c3f61;}
+
+@media (max-width: 575px) {
+
+  .footer-mobile {
+    background: var(--dark-other-fields);
+    -webkit-box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+  }
+
+  .filter-btn:hover {color: #3A7CFD;}
+}

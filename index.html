@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" title="theme" href="themes/theme-light.css">
+</head>
+<body>
+  <header class="header"></header>
+  <section class="main-section">
+    <div class="main-block">
+      <div class="title-block">
+        <h1 class="logo">TODO</h1>
+        <div class="theme">
+          <img src="img/night-icon.svg" alt="moon" data-theme="dark" class="theme-link">
+          <img src="img/day-icon.svg" alt="sun" data-theme="light" class="theme-link">
+        </div>
+      </div>
+      <form action="#">
+        <div class="select">
+          <label class="select-inner">
+            <input id="checkboxInput" class="checkbox" type="checkbox">
+            <span class="fake-input">
+              <svg class="mark" width="24" height="24" viewBox="0 0 24 24" fill="red"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </span>
+            <input id="input" class="input-task" type="text" placeholder="Create a new todo…">
+          </label>
+        </div>
+        <ul class="tasks"></ul>
+      </form>
+      <div class="task-footer">
+        <p class="task-count"><span id="count">5</span> items left</p>
+        <div class="filter-wrapper">
+          <p class="filter-btn filter-btn_active">All</p>
+          <p class="filter-btn">Active</p>
+          <p class="filter-btn">Completed</p>
+        </div>
+        <p class="task-clear">Clear Completed</p>
+      </div>
+      <div class="footer-mobile">
+        <p class="filter-btn filter-btn_active">All</p>
+        <p class="filter-btn">Active</p>
+        <p class="filter-btn">Completed</p>
+      </div>
+      <h3 class="subtitle">Drag and drop to reorder list</h3>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
