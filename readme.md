@@ -20,7 +20,7 @@ Exercise to improve Javascript skills
 
 ## Demo
 
-Click the link to see the page 
+Click the link to see the page https://april-thunder.github.io/Drag-Drop-ToDo-List/
 
 
 
