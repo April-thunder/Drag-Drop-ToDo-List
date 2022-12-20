@@ -8,7 +8,6 @@ Exercise to improve Javascript skills
 - JS (LocalStorage, Drag&Drop, localStrorage, Filter)
 - HTML
 - CSS (Flexbox Layout)
-- BEM Methodology
 
 ## Notes
 
